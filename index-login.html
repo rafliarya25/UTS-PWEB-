@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - Registrasi</title>
+    <!-- Bootstrap, Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style-login.css" />
+    <!-- Icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="title-logo">
+        <img
+          src="img/logo-jember-adventure.png"
+          class="logo-login"
+          width="30%"
+          height="30%"
+          alt=""
+        />
+        <div class="title login"></div>
+        <div class="title signup"></div>
+      </div>
+      <div class="form-container">
+        <div class="slide-controls">
+          <input type="radio" name="slide" id="login" checked />
+          <input type="radio" name="slide" id="signup" />
+          <label for="login" class="slide login">Login</label>
+          <label for="signup" class="slide signup">Registrasi</label>
+          <div class="slider-tab"></div>
+        </div>
+        <div class="form-inner">
+          <form action="index.html" class="login">
+            <pre></pre>
+            <div class="field">
+              <input type="text" placeholder="Masukan Email" />
+            </div>
+            <div class="field">
+              <input type="password" placeholder="Masukan Password" />
+            </div>
+            <div class="pass-link"><a href="">Lupa Password?</a></div>
+            <div class="field btn">
+              <!-- <div class="btn-layer"></div> -->
+              <a href="index.html"
+                ><button type="submit" class="btn-login">Login</button></a
+              >
+            </div>
+            <div class="signup-link">
+              Belum punya akun?<a href="#">Registrasi</a>
+            </div>
+          </form>
+          <form action="#" class="signup">
+            <div class="field">
+              <input type="text" placeholder="Nama Lengkap" />
+            </div>
+            <div class="field">
+              <input type="text" placeholder="Masukan Email" />
+            </div>
+            <div class="field">
+              <input type="password" placeholder="Masukan Password" />
+            </div>
+            <div class="field">
+              <input
+                type="password"
+                placeholder="Masukan Confirm Password"
+                required
+              />
+            </div>
+            <div class="field btn">
+              <div class="btn-layer"></div>
+              <a href="index.html"
+                ><button type="submit" class="btn-regis">Registrasi</button></a
+              >
+            </div>
+            <div class="signup-link">
+              Sudah punya akun?<a href="">Login Sekarang</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/script-login.js"></script>
+  </body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jember Adventure</title>
+    <!-- bootstap, font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <body>
+    <header class="fix">
+      <video src="video/nature.mp4" type="video/mp4" class="vid-bg" autoplay loop muted ></video>
+      <nav class="navbar">
+        <a href="#" class="navbar-logo"><img src="img/logo-jember-adventure.png" alt="Jember Adventure"></a>
+        <div class="navbar-nav">
+          <a href="#home">Home</a>
+          <a href="#destination">Destination</a>
+          <a href="#tourist-map">Tourist Map</a>
+        </div>
+        <a href="index-login.html"><button class="btn-log">Login</button></a>  
+      </nav>
+      <section class="hero" id="home">
+        <div class="hero-content">
+          <h1>The Beautiful City Of Jember</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda tempore, accusamus, 
+            nulla earum quam minima vel laboriosam officia impedit voluptate est, hic deleniti et sed?</p>
+          <div class="search-box">
+            <input type="text" placeholder="Mau Cari Apa...">
+            <div class="search-icon">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="cancel-icon">
+              <i class="fa-regular fa-circle-xmark"></i>
+            </div>
+            <div class="search-data"></div>
+          </div>
+        </div>
+      </section>  
+    </header>
+    <section class="destination" id="destination">
+      <h1 class="title-destination">Destination</h1>
+      <div class="row">
+        <div class="card">
+          <img src="img/nature1.jpg" class="card-img" alt="" />
+          <div class="card-body">
+            <h1 class="card-title">Waterfall</h1>
+            <p class="card-sub-title">The newest scenery</p>
+            <p class="card-info">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quod
+              praesentium ratione explicabo asperiores repudiandae corporis est. Sit
+              maxime repellendus ullam minus ad debitis. Maiores?
+            </p>
+            <a href="index-detail.html"><button class="card-btn">View more</button></a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/nature2.jpg" class="card-img" alt="" />
+          <div class="card-body">
+            <h1 class="card-title">Island</h1>
+            <p class="card-sub-title">The newest scenery</p>
+            <p class="card-info">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quod
+              praesentium ratione explicabo asperiores repudiandae corporis est. Sit
+              maxime repellendus ullam minus ad debitis. Maiores?
+            </p>
+            <a href="index-detail.html"><button class="card-btn">View more</button></a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/nature3.jpg" class="card-img" alt="" />
+          <div class="card-body">
+            <h1 class="card-title">Waterfall</h1>
+            <p class="card-sub-title">The newest scenery</p>
+            <p class="card-info">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quod
+              praesentium ratione explicabo asperiores repudiandae corporis est. Sit
+              maxime repellendus ullam minus ad debitis. Maiores?
+            </p>
+            <a href="index-detail.html"><button class="card-btn">View more</button></a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/nature4.jpg" class="card-img" alt="" />
+          <div class="card-body">
+            <h1 class="card-title">Beach</h1>
+            <p class="card-sub-title">The newest scenery</p>
+            <p class="card-info">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quod
+              praesentium ratione explicabo asperiores repudiandae corporis est. Sit
+              maxime repellendus ullam minus ad debitis. Maiores?
+            </p>
+            <a href="index-detail.html"><button class="card-btn">View more</button></a>
+          </div>
+        </div>
+      </div>
+      <div class="button-card-view">
+        <button class="btn-hover-effect">
+          View more
+          <span class="first"></span>
+          <span class="second"></span>
+          <span class="third"></span>
+          <span class="fourth"></span>
+        </button>
+      </div>
+    </section>
+    <section class="tourist-map" id="tourist-map">
+      <h1 class="title-maps">Tourist Maps</h1>
+      <h3 class="title-location">Lihat Lokasi Wisata Terpopuler di Jember</h3>
+      <div class="body-maps">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7893.402008744092!2d113.55082043810766!3d-8.43099475349966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd682a6a4b5cd8d%3A0xb9c242f3a09e2d2e!2sPantai%20Papuma!5e0!3m2!1sid!2sid!4v1683449449243!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="maps"></iframe>
+      </div>
+      <div class="title-info">
+        <h2 class="title-jangkauan">Jangkauan Peta</h2>
+        <p class="title-sub-jangkauan">Aplikasi pemetaan geografis <span>Jember Adventure</span> ini memuat informasi dan lokasi dari Wisata Alam di Kabupaten Jember. Pemetaan diambil dari data
+        lokasi Google Maps dan data dari website masing masing tempat wisata.</p>
+      </div>
+      <div class="title-info2">
+        <h2 class="title-jumlah">Jumlah Tempat Wisata</h2>
+        <h2 class="jumlah">25</h2>
+      </div>
+    </section>
+    <footer>
+      <h4>Support By :</h4>
+
+    </footer>
+    <!-- script JS -->
+    <script src="js/script.js"></script>
+    <script src="js/script-validasi.js"></script>
+  </body>
+</html>
